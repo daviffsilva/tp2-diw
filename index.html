@@ -357,7 +357,7 @@
         const handleClickFilme = (event) => {
             event.preventDefault();
             const movieId = $(event.currentTarget).attr("data-filme-id");
-            window.location = '/detalhe.html?movieId=' + movieId;
+            window.location = 'detalhe.html?movieId=' + movieId;
         }
 
         const generateMoviesRequestConfig = (pageIndex = 1) => {
